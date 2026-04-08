@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poornima | UI/UX Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Poornima<span class="dot">.</span></div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle" class="theme-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <img src="photo.png" alt="Poornima" class="profile-photo">
+        </div>
+
+        <div class="hero-content">
+            <h1>Hi, I'm Poornima</h1>
+            <p class="tagline">BCA 7th Semester Student at Kabhre Multiple Campus<br>
+            Passionate <span class="highlight">UI/UX Designer</span> &amp; Frontend Developer</p>
+            
+            <div class="hero-buttons">
+                <a href="#work" class="btn primary">View My Design</a>
+                <a href="#contact" class="btn secondary">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a final year BCA student at Kabhre Multiple Campus, Banepa. I have a strong passion for creating beautiful and user-friendly digital experiences. I specialize in UI/UX design using Figma and bring designs to life with HTML, CSS, and JavaScript.</p>
+                    <p>Currently focusing on building my portfolio and looking for internship or freelance opportunities in UI/UX design.</p>
+                </div>
+                <div class="about-info">
+                    <p><strong>Program:</strong> Bachelor of Computer Application (7th Semester)</p>
+                    <p><strong>Campus:</strong> Kabhre Multiple Campus, Banepa</p>
+                    <p><strong>Location:</strong> Kavrepalanchok, Nepal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work - Only E-commerce Figma Project -->
+    <section id="work" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">My Featured Design</h2>
+            
+            <div class="project-card featured">
+                <div class="project-image">
+                    <img src="ecommerce.png" 
+                         alt="E-Commerce Figma Design">
+                </div>
+                <div class="project-info">
+                    <h3>Modern E-Commerce App UI Design</h3>
+                    <p>A complete UI/UX design for an online shopping platform created entirely in Figma. Includes product browsing, detailed product view, cart, checkout flow, and responsive mobile views with clean, modern aesthetics.</p>
+                    
+                    <div class="tech-tags">
+                        <span>Figma</span>
+                        <span>UI/UX Design</span>
+                        <span>Wireframing</span>
+                        <span>Prototyping</span>
+                        <span>Color</span>
+                        <span>Typography</span>
+                        
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="live-btn">View in Figma</a>
+                        <a href="#" target="_blank" class="github-btn">View Process</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Figma • Wireframing • Prototyping • Color Theory • Typography • Layout</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <p>HTML5 • CSS3 </p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM Manipulation • Event Handling • Form Validation • Dark Mode</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Namaste, I really liked your E-commerce UI design..." rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+            <p class="contact-note">Or email me at: <strong>poornimatimilsina79@gmail.com</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Poornima • BCA 7th Semester • Kabhre Multiple Campus, Banepa, Kavrepalanchok</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
